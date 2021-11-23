@@ -40,7 +40,7 @@ describe('Unicorn', function() {
   it('should refute isWhite', function() {
     var unicorn = new Unicorn('Steve', 'red');
 
-    assert.equal(unicorn.isWhite, false);
+    assert.equal(unicorn.isWhite(), false);
   });
 
   it('should say sparklying stuff', function() {
